@@ -1,0 +1,64 @@
+# Automatically generated make files
+*.make
+*.makesav
+Makefile
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Dictionary source files
+G__*.cxx
+G__*.h
+etc/allDict.cxx
+etc/allDict.h
+*_dictContent.h
+*_dictUmbrella.h
+*_rdict.pcm
+
+# Other Stuff
+*.root
+*.tar.gz
+*.tar.bz
+*.zip
+
+# vim swap files
+.*.sw*
+
+# emacs backups
+*~
+
+# ignore all doxygen created files
+*/doc/dox/
+!*/doc/dox/src/
+
+# Python files
+*.pyc
+*.pyo
+
+#Some common CMT machine-dependent directories
+# (strings from "fs sysname" or "uname")
+Linux*/
+Darwin*/
+amd*_linux*/
+
+# ICEDUST specific ignores
+EXTERNALS
+*/cmt/setup.*
+*/cmt/cleanup.*
+*_version.cxx
+*_version.h
+*_version.hxx
+*_version_LinkDef.h
+**/dict/
